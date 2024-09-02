@@ -1,0 +1,179 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+html{
+
+}
+body
+{
+    background: black;  
+    color: white;  
+    
+   
+}
+header
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    padding: 0 145px;
+    position: absolute;
+    top: 0;
+}
+
+header .navimage
+{    width: 194px;
+    margin: 5px 37px;
+    height: 56px;
+    
+}
+.head
+{
+    display: flex;  
+    padding: 11px;
+    width: 240px;
+    margin-right: 76px;
+    
+}
+.option select
+{
+    background:rgba(0, 0, 0, 0.363);
+    color: white;
+    width: 155px;
+   height: 40px;
+    border: 2px solid #585757;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+
+}
+.option select option
+{
+    background: white;
+    color: black;
+}
+.navbutton
+{
+    display: flex;
+    justify-content: center;
+    padding-left: 18px;
+
+}
+.head .navbutton button
+{
+    background:#e00f0f;
+    color: white;
+    width: 100px;
+    border: 1px ;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+.head .navbutton button:hover
+{
+    background-color:#e00f0f ;
+}
+
+/* ---------------------header---------------------------------? */
+
+.bgimg
+{
+    opacity:30%;
+    position: relative;
+    
+}
+
+.hello
+{
+    position: absolute;
+    top: 90%;
+}
+
+
+/* --------------------------background----------------------------- */
+
+.section1
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 22%;
+    
+}
+.part1{
+    
+    text-align: center;    
+    width: 700px;
+    padding-top: 50px;
+    font-family: sans-serif;
+    color: #ffffff;
+    }
+.part1 .heading h1
+{
+    font-size: 67px;
+    margin-bottom: 8px;
+    font-weight: 820;
+    text-align: center;
+    
+}
+.heading p
+{
+    font-size: 25px;
+    margin-bottom: 27px;  
+    text-align: center;  
+}
+.part1 .para
+{
+    
+    font-size:19px;
+    color: #ffffff
+}
+.login
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 27px;
+    align-items: center;
+}
+.email input
+{
+height: 68PX;
+width: 418px;
+background-color: #222222e0;
+opacity: 85%;
+font-size: 20px;
+}
+::placeholder
+{
+    color: #ffffff;
+    padding-left: 15px;
+}
+.getstarted button
+{
+    height: 70PX;
+    margin-left: 8px;
+    width: 278px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background: #eb1414;
+    color: white;
+    font-size: 30px;
+}
+.getstarted button:hover
+{
+    background:#d11111ea;
+    
+}
+
+
+
