@@ -11,22 +11,20 @@ html{
 body
 {
     background: black;  
-    color: white;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    color: white;
     
    
 }
 header
 {
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 21px;
     position: absolute;
     top: 0;
     box-sizing: border-box; 
+    
 }
 
 header .navimage
