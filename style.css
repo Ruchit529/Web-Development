@@ -92,11 +92,15 @@ header .navimage
     position: relative;
     
 }
+.bgimage
+{
+    
+}
 
 .hello
 {
     position: absolute;
-    top: 90%;
+    top: 95%;
 }
 
 
