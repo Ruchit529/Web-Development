@@ -100,7 +100,7 @@ header .navimage
 }
 .bgimage
 {
-    width: fit-content;
+    width:100%
 }
 
 /* --------------------------background----------------------------- */
