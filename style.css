@@ -164,4 +164,9 @@ padding-bottom: 12px;
     border: 1px solid black;
     margin-left: 5px;
     border-radius: 4px;
+    cursor: pointer;
+}
+.email button:hover
+{
+     background-color:  rgba(204, 11, 11, 0.918);
 }
